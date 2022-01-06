@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <title>Weather</title>
+</head>
+<body class="w-full h-screen bg-no-repeat bg-cover bg-scroll" style="background-image: url(https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png);">
+    <div class=" py-5 px-8 flex flex-wrap border-b-1">
+        <img src="https://cdn0.iconfinder.com/data/icons/ballicons/128/cloud-512.png" alt="" class="w-9 h-9">
+        <a href="index.php" class="text-white font-semibold flex-auto text-xl ml-2">Weather App</a>
+        <nav class="text-white text-lg font-semibold space-x-6">
+            <a class="hover:text-blue-300 transition duration-200" href="index.php">Acasa</a>
+            <a class="hover:text-blue-300 transition duration-200" href="php/signIn.php">Sign in</a>
+            <a class="hover:text-blue-300 transition duration-200" href="php/login.php">Login</a>
+            <a class="hover:text-blue-300 transition duration-200" href="info.html">Info</a>
+        </nav>
+    </div>
+    <div class="text-lg font-semibold sm:w-2/5 w-full m-auto text-white mt-20 space-y-4 min-w-min">
+        <h1>Informatiile privind vremea, sunt obtinute cu ajutorul unui API de pe <a class=" text-black" href="https://openweathermap.org/api">openweathermap</a></h1>
+        <h1>Pe prima pagina se poate observa vremea la momentul actul in orasul specificat</h1>
+        <h1>Pentru a vedea vremea pe mai multe zile pentru orasul specificat este nevoie sa faceti un cont</h1>
+        <h1>Contul se face rapid, si fara verificare, un sistem de login simplu scris in PHP</h1>
+        <h1>Aplicatia este stilizata folosint framework-ul Tailwindcss</h1>
+    </div>
+</body>
+</html>
