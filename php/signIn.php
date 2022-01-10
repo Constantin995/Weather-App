@@ -21,7 +21,6 @@
             <a class="hover:text-blue-300 transition duration-200" href="../index.php">Acasa</a>
             <a class="hover:text-blue-300 transition duration-200" href="signIn.php">Sign in</a>
             <a class="hover:text-blue-300 transition duration-200" href="login.php">Login</a>
-            <a class="hover:text-blue-300 transition duration-200" href="../info.html">Info</a>
         </nav>
     </div>
 
