@@ -13,7 +13,7 @@
 <body class="fundal w-full h-full bg-no-repeat bg-cover bg-scroll sm:h-screen" style="background-image: url(https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_960_720.png);">
     <div class=" py-5 px-8 flex flex-wrap border-b-1 space-y-2">
         <img src="https://cdn0.iconfinder.com/data/icons/ballicons/128/cloud-512.png" alt="" class="w-9 h-9">
-        <a href="index.php" class="text-white font-semibold flex-auto text-xl sm:ml-2 text-center md:text-left">Weather App <small class="text-black text-sm">by Manu Constantin</small></a>
+        <a href="index.php" class="text-white font-semibold flex-auto text-xl sm:ml-2 text-center md:text-left">Weather App</a>
         <nav class="text-white sm:text-lg font-semibold space-x-6 text-sm md:items-center text-right">
             <?php
             if (isset($_SESSION['name'])) {
@@ -28,7 +28,6 @@
             <a class="hover:text-blue-300 transition duration-200" href="index.php">Acasa</a>
             <a class="hover:text-blue-300 transition duration-200" href="php/signIn.php">Sign in</a>
             <a class="hover:text-blue-300 transition duration-200" href="php/login.php">Login</a>
-            <a class="hover:text-blue-300 transition duration-200" href="info.html">Info</a>
         </nav>
     </div>
     <div>
